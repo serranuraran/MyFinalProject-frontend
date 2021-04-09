@@ -9,7 +9,7 @@ import { TokenModel } from '../models/tokenModel';
 })
 export class AuthService {
 
-  apiUrl = 'https://localhost:44314/api/auth/';
+  apiUrl = 'https://localhost:44318/api/auth/';
   constructor(private httpClient:HttpClient) { }
 
   login(loginModel:LoginModel){
@@ -24,7 +24,4 @@ export class AuthService {
       return false;
     }
   }
-
-
-
 }

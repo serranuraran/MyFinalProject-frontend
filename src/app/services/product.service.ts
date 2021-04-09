@@ -10,7 +10,7 @@ import { ResponseModel } from '../models/responseModel';
 })
 export class ProductService {
 
-  apiUrl = 'https://localhost:44314/api/';
+  apiUrl = 'https://localhost:44318/api/';
 
   constructor(private httpClient: HttpClient) { }
 
